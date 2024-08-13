@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-page {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.chat-window {
+    width: 75%;
+    padding: 10px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+}

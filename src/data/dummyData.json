@@ -1,0 +1,62 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Veena Rao"
+        },
+        {
+            "id": 2,
+            "name": "Amit Jain"
+        },
+        {
+            "id": 3,
+            "name": "Vijay Setu"
+        },
+        {
+            "id": 4,
+            "name": "Sanya Patel"
+        },
+        {
+            "id": 5,
+            "name": "Rajesh Kumar"
+        },
+        {
+            "id": 6,
+            "name": "Nisha Sharma"
+        }
+    ],
+    "conversations": [
+        {
+            "id": 1,
+            "contactId": 1,
+            "messages": [
+                {
+                    "text": "Hello, how are you?",
+                    "timestamp": "2024-08-13T12:00:00Z",
+                    "sender": "Veena Rao"
+                },
+                {
+                    "text": "I'm good, thank you! How about you?",
+                    "timestamp": "2024-08-13T12:05:00Z",
+                    "sender": "You"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "contactId": 2,
+            "messages": [
+                {
+                    "text": "Hi Amit, do you have the project files?",
+                    "timestamp": "2024-08-14T09:00:00Z",
+                    "sender": "You"
+                },
+                {
+                    "text": "Yes, I just sent them over.",
+                    "timestamp": "2024-08-14T09:10:00Z",
+                    "sender": "Amit Jain"
+                }
+            ]
+        }
+    ]
+}
